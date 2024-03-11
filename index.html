@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javiddo Group</title>
     <link rel="icon" href="./media/icon/fav-icon.svg" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -18,24 +18,86 @@
                 <p>Ведущая компания в сфере автозапчастей</p>
             </div>
         </div>
-        <div class="header-center">
-            <p>Заказать Автозапчасти</p>
-            <img src="./media/icon/go-to-link.svg" alt="">
-        </div>
+        <a class="contact-us-link" href="https://www.javiddo.com/contact" target="_blank">
+            <div class="header-center">
+                <div>
+                    <p>Заказать
+                        Автозапчасти</p>
+                </div>
+                <div><img src="./media/icon/go-to-link.svg" alt=""></div>
+            </div>
+        </a>
         <div class="header-right">
-            <div>
+            <div class="header-right-left-text">
                 <p>Мы работаем по будням с 09:00 ДО 19:00</p>
             </div>
-            <div>
-                <p>+8617758077142</p>
+            <div class="header-right-right">
+                <p class="header-right-right-text">+8617758077142</p>
+                <div class="header-right-right-image">
+                    <img src="./media/icon/phone.svg" alt="Call Us">
+                </div>
             </div>
         </div>
     </div>
+    <div class="headline-tex">
+        <h1>ALL TYPES CARS, ALL TYPES SPARE PARTS</h1>
+    </div>
+    <div class="headline-tex-sub-text">
+        <h2>ALL TYPES CARS, ALL TYPES SPARE PARTS</h2>
+    </div>
+    <div class="slyder">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Ваши слайды здесь -->
+                <div class="swiper-slide"><img src="./media/carlogos/Audi.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Chevrolet.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Ford.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Mercedes.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Mitsubishi.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Tesla.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/VolksWagen.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Changan.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Renault.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Subaru.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Toyota.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Hyundai.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/KIA.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./media/carlogos/Opel.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="video-container">
         <video id="background-video" autoplay loop muted playsinline>
             <source src="./media/video/background.mp4" type="video/mp4">
         </video>
-        <div style="position: absolute; width: 100%; height: 100%; background-color: #0000008f; ">
+        <div style="position: absolute; width: 100%; height: 100%; background-color: #000000d2; ">
         </div>
     </div>
     <br>
@@ -107,6 +169,24 @@
     <br>
     <br>
     <br>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Инициализация Swiper
+        var swiper = new Swiper('.swiper-container', {
+            // Настройки Swiper...
+            autoplay: {
+                delay: 1000, // Задержка между слайдами в миллисекундах (в данном случае 5 секунд)
+                disableOnInteraction: false, // Автопрокрутка продолжается после взаимодействия пользователя с слайдером
+            },
+            slidesPerView: 'auto',
+            spaceBetween: 1,
+            loop: true, // Пример настройки: бесконечный цикл
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 
 </html>

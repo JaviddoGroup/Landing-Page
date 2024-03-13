@@ -2727,11 +2727,12 @@
     .header {
         display: flex;
         justify-content: space-around;
+        margin-top: 15px;
     }
 
     .header-left {
         display: flex;
-        width: 20%;
+        width: 30%;
         justify-content: center;
     }
 
@@ -2750,36 +2751,44 @@
         justify-content: center;
     }
 
+    .header-left-img img {
+        width: 200px;
+    }
+
     .header-center {
         display: flex;
-        width: 100%;
+        width: 0;
+        position: relative;
+        white-space: nowrap;
+        top: 1550%;
+        justify-content: center;
+        right: 30px;
     }
 
     .header-right {
         display: flex;
-        width: 20%;
+        width: 10%;
     }
 
 
     .header-center p {
         color: #fff;
-        font-size: 10px;
+        font-size: 14px;
         text-transform: uppercase;
         font-weight: bolder;
-        display: none;
+        display: block;
     }
 
     .header-center div {
         display: flex;
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
     }
 
     .header-center div img {
         width: 20px;
         height: 20px;
-        margin-left: 10px;
-        margin-top: 12px;
+        margin: 0 5px;
     }
 
     .contact-us-link {
@@ -2800,6 +2809,7 @@
         font-weight: bold;
         text-align: right;
         width: 100%;
+        display: none;
     }
 
     .header-right-right-text {
@@ -2819,25 +2829,25 @@
 
     .header-right-right-image {
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: baseline;
     }
 
     .header-right-right-image img {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
 
     .headline-tex {
         display: flex;
         justify-content: center;
         align-items: end;
-        margin-top: 47.1%;
+        margin-top: 171.1%;
     }
 
     .headline-tex h1 {
         color: #ff4200;
-        font-size: 30px;
+        font-size: 16px;
         font-weight: bold;
         margin: 0;
     }
@@ -2850,12 +2860,12 @@
 
     .headline-tex-sub-text h2 {
         color: #ffffff;
-        font-size: 15px;
+        font-size: 10px;
         margin-bottom: 10px;
     }
 
     .slyder {
-        width: 40%;
+        width: 90%;
         margin: auto;
         overflow: hidden;
     }
@@ -2911,7 +2921,7 @@
 
     .menus {
         /* margin-left: 15px; */
-        width: 40%;
+        width: 50%;
         height: 300px;
         background-color: #adadad93;
         position: relative;
@@ -2930,13 +2940,13 @@
     .menus p {
         color: #ff4200;
         font-weight: bolder;
-        font-size: 12px;
+        font-size: 8px;
         display: flex;
         justify-content: center;
     }
 
     .menus a {
-        font-size: 12px;
+        font-size: 10px;
         display: flex;
         justify-content: center;
         margin: 9px;
@@ -2967,19 +2977,19 @@
 
     .name-of-catalog h3 {
         color: #fff;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .catalog {
         display: flex;
         justify-content: center;
-        width: 43.8%;
+        width: 92.8%;
         object-fit: cover;
         margin: auto;
     }
 
     .swiper2 .swiper-slide {
-        width: 350px;
+        width: 400px;
         height: auto;
         object-fit: cover;
 
@@ -3000,7 +3010,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 600px;
+        height: 760px;
         margin-top: 0.5%;
     }
 
@@ -3013,7 +3023,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 600px;
+        height: 760px;
         margin-top: 0%;
     }
 
@@ -3026,7 +3036,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 600px;
+        height: 760px;
         margin-top: 0%;
     }
 
@@ -3039,7 +3049,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 600px;
+        height: 760px;
         margin-top: 0%;
     }
 
@@ -3052,7 +3062,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 600px;
+        height: 760px;
         margin-top: 0%;
     }
 
@@ -3065,11 +3075,723 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 600px;
+        height: 760px;
         margin-top: 0%;
     }
 }
 
-@media screen and (max-width: 400px) {}
+@media screen and (max-width: 400px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
 
-@media screen and (max-width: 360px) {}
+    .header-left {
+        display: flex;
+        width: 30%;
+        justify-content: center;
+    }
+
+    .header-left div p {
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-left: 10px;
+        width: 130%;
+        display: none;
+    }
+
+    .header-left-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-left-img img {
+        width: 200px;
+        margin-left: 20px;
+    }
+
+    .header-center {
+        display: flex;
+        width: 0;
+        position: relative;
+        white-space: nowrap;
+        top: 1350%;
+        justify-content: center;
+        right: 30px;
+    }
+
+    .header-right {
+        display: flex;
+        width: 10%;
+    }
+
+
+    .header-center p {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        display: block;
+    }
+
+    .header-center div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-center div img {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+
+    .contact-us-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .header-right a {
+        text-decoration: none;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .header-right-left-text {
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: right;
+        width: 100%;
+        display: none;
+    }
+
+    .header-right-right-text {
+        margin-top: 12px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+
+    .header-right-right-text {
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        display: none;
+    }
+
+    .header-right-right-image {
+        display: flex;
+        justify-content: end;
+        align-items: baseline;
+    }
+
+    .header-right-right-image img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .headline-tex {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 167.1%;
+    }
+
+    .headline-tex h1 {
+        color: #ff4200;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .headline-tex-sub-text {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .headline-tex-sub-text h2 {
+        color: #ffffff;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .slyder {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .swiper1 img {
+        width: 45px;
+        height: 45px;
+        /* margin-right: 100px; */
+
+    }
+
+
+    .swiper-slide {
+        width: 17%;
+    }
+
+    .first-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .first-footer p {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 8px;
+        margin: 0;
+    }
+
+    /* Burger Menu ----------------------------------------------------------- */
+
+    .menu-icon {
+        position: sticky;
+        top: 0%;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        height: 0;
+        z-index: 100;
+    }
+
+
+    .menu-icon img {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        top: 300px;
+        cursor: pointer;
+        margin-right: 15px;
+        z-index: 1000;
+    }
+
+    .menus {
+        /* margin-left: 15px; */
+        width: 50%;
+        height: 300px;
+        background-color: #adadad93;
+        position: relative;
+        top: 170px;
+        border-radius: 30px 0 0 30px;
+        display: none;
+        /* transition: 2s; */
+        scroll-behavior: smooth;
+    }
+
+    .menu-active {
+        /* transition: 2s; */
+        display: block;
+    }
+
+    .menus p {
+        color: #ff4200;
+        font-weight: bolder;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menus a {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 9px;
+        font-weight: bolder;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav-bar-active {
+        color: #000 !important;
+    }
+
+    .menus a:hover {
+        color: #000;
+        text-decoration: none
+    }
+
+    /* --------------------------------------------------------  */
+
+    .center-frame {
+        overflow: hidden;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .catalog {
+        display: flex;
+        justify-content: center;
+        width: 91.8%;
+        object-fit: cover;
+        margin: auto;
+    }
+
+    .swiper2 .swiper-slide {
+        width: 360px;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    .swiper2 .swiper-slide img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .first-catalog {
+        background-image: url('../media/img/banners/brake-system.jpg');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0.5%;
+    }
+
+    .second-catalog {
+        background-image: url('../media/img/banners/electrik-system.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .third-catalog {
+        background-image: url('../media/img/banners/liquids-system.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .four-catalog {
+        background-image: url('../media/img/banners/interior.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .five-catalog {
+        background-image: url('../media/img/banners/exterior.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .six-catalog {
+        background-image: url('../media/img/banners/accessories.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .header-left {
+        display: flex;
+        width: 30%;
+        justify-content: center;
+    }
+
+    .header-left div p {
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-left: 10px;
+        width: 130%;
+        display: none;
+    }
+
+    .header-left-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-left-img img {
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .header-center {
+        display: flex;
+        width: 0;
+        position: relative;
+        white-space: nowrap;
+        top: 1000%;
+        justify-content: center;
+        right: 30px;
+    }
+
+    .header-right {
+        display: flex;
+        width: 10%;
+    }
+
+
+    .header-center p {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        display: block;
+    }
+
+    .header-center div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-center div img {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+
+    .contact-us-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .header-right a {
+        text-decoration: none;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .header-right-left-text {
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: right;
+        width: 100%;
+        display: none;
+    }
+
+    .header-right-right-text {
+        margin-top: 12px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+
+    .header-right-right-text {
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        display: none;
+    }
+
+    .header-right-right-image {
+        display: flex;
+        justify-content: end;
+        align-items: baseline;
+    }
+
+    .header-right-right-image img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .headline-tex {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: 153.1%;
+    }
+
+    .headline-tex h1 {
+        color: #ff4200;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .headline-tex-sub-text {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .headline-tex-sub-text h2 {
+        color: #ffffff;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .slyder {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .swiper1 img {
+        width: 45px;
+        height: 45px;
+        /* margin-right: 100px; */
+
+    }
+
+
+    .swiper-slide {
+        width: 17%;
+    }
+
+    .first-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .first-footer p {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 8px;
+        margin: 0;
+    }
+
+    /* Burger Menu ----------------------------------------------------------- */
+
+    .menu-icon {
+        position: sticky;
+        top: 0%;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        height: 0;
+        z-index: 100;
+    }
+
+
+    .menu-icon img {
+        width: 32px;
+        height: 32px;
+        position: relative;
+        top: 300px;
+        cursor: pointer;
+        margin-right: 15px;
+        z-index: 1000;
+    }
+
+    .menus {
+        /* margin-left: 15px; */
+        width: 50%;
+        height: 300px;
+        background-color: #adadad93;
+        position: relative;
+        top: 170px;
+        border-radius: 30px 0 0 30px;
+        display: none;
+        /* transition: 2s; */
+        scroll-behavior: smooth;
+    }
+
+    .menu-active {
+        /* transition: 2s; */
+        display: block;
+    }
+
+    .menus p {
+        color: #ff4200;
+        font-weight: bolder;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menus a {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 9px;
+        font-weight: bolder;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav-bar-active {
+        color: #000 !important;
+    }
+
+    .menus a:hover {
+        color: #000;
+        text-decoration: none
+    }
+
+    /* --------------------------------------------------------  */
+
+    .center-frame {
+        overflow: hidden;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .catalog {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        object-fit: cover;
+        margin: auto;
+    }
+
+    .swiper2 .swiper-slide {
+        width: 360px;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    .swiper2 .swiper-slide img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .first-catalog {
+        background-image: url('../media/img/banners/brake-system.jpg');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0.5%;
+    }
+
+    .second-catalog {
+        background-image: url('../media/img/banners/electrik-system.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .third-catalog {
+        background-image: url('../media/img/banners/liquids-system.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .four-catalog {
+        background-image: url('../media/img/banners/interior.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .five-catalog {
+        background-image: url('../media/img/banners/exterior.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+
+    .six-catalog {
+        background-image: url('../media/img/banners/accessories.png');
+        /* Замените 'path_to_your_image.jpg' на путь к вашему изображению */
+        background-size: cover;
+        /* Растягиваем изображение так, чтобы оно полностью покрывало задний план */
+        background-position: center;
+        /* Выравниваем изображение по центру */
+        width: 100%;
+        /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
+        height: 760px;
+        margin-top: 0%;
+    }
+}

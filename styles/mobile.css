@@ -327,7 +327,7 @@
     }
 
     .swiper2 .swiper-slide {
-        width: 900px;
+        width: 100%;
         height: auto;
         object-fit: cover;
 
@@ -746,7 +746,7 @@
     }
 
     .swiper2 .swiper-slide {
-        width: 500px;
+        width: 100%;
         height: auto;
         object-fit: cover;
 
@@ -902,7 +902,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 90vh;
+        height: 89vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -1157,13 +1157,13 @@
     .catalog {
         display: flex;
         justify-content: center;
-        width: 26%;
+        width: 35%;
         object-fit: cover;
         margin: auto;
     }
 
     .swiper2 .swiper-slide {
-        width: 500px;
+        width: 100%;
         height: auto;
         object-fit: cover;
 
@@ -1318,7 +1318,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 90vh;
+        height: 89vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -1583,7 +1583,7 @@
     }
 
     .swiper2 .swiper-slide {
-        width: 550px;
+        width: 100%;
         height: auto;
         object-fit: cover;
 
@@ -2003,7 +2003,7 @@
     }
 
     .swiper2 .swiper-slide {
-        width: 550px;
+        width: 100%;
         height: auto;
         object-fit: cover;
 

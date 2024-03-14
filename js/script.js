@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
     languageSpans.forEach(function (span) {
         span.addEventListener('click', function () {
             const lang = this.textContent.toLowerCase();
-            fetch(`../languages/${lang}.json`)
+            fetch(`./languages/${lang}.json`)
                 .then(response => response.json())
                 .then(data => {
                     replaceKeywords(data);

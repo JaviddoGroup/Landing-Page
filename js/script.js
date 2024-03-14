@@ -30,3 +30,37 @@ window.addEventListener('load', function () {
     var loader = document.querySelector('.spinnerContainer');
     loader.style.display = 'none'; // Скрыть элемент загрузки после загрузки страницы
 });
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const languageSpans = document.querySelectorAll('.name');
+
+    languageSpans.forEach(function (span) {
+        span.addEventListener('click', function () {
+            const lang = this.textContent.toLowerCase();
+            fetch(`../languages/${lang}.json`)
+                .then(response => response.json())
+                .then(data => {
+                    replaceKeywords(data);
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    });
+
+    function replaceKeywords(data) {
+        const elementsWithKeywords = document.querySelectorAll('[data-keyword]');
+        elementsWithKeywords.forEach(function (element) {
+            const keyword = element.getAttribute('data-keyword');
+            if (data.hasOwnProperty(keyword)) {
+                element.textContent = data[keyword];
+            }
+        });
+    }
+});
+
+
+

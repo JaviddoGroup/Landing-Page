@@ -33,7 +33,9 @@ html {
 
 
 
-
+.header-center div {
+    z-index: 3;
+}
 
 /* Loading Page----------------------------------------- */
 

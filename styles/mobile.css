@@ -1,11 +1,13 @@
 @media screen and (max-width: 2560px) {
+    .qunduz {
+        margin-top: 20px;
+    }
+
     .first-catalog-banner {
         width: 100%;
         height: 100px;
         display: flex;
         justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 10px;
     }
 
     .first-banner-logo {
@@ -470,11 +472,13 @@
 
 
 @media screen and (max-width: 2000px) {
+    .qunduz {
+        margin-top: 20px;
+    }
+
     .first-catalog-banner {
         width: 100%;
         height: 100px;
-        margin-top: 10px;
-        margin-bottom: 5px;
         display: flex;
         justify-content: center;
     }
@@ -924,11 +928,13 @@
 
 
 @media screen and (max-width: 1800px) {
+    .qunduz {
+        margin-top: 20px;
+    }
+
     .first-catalog-banner {
         width: 100%;
         height: 100px;
-        margin-top: 10px;
-        margin-bottom: 5px;
         display: flex;
         justify-content: center;
     }
@@ -1377,10 +1383,13 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .qunduz {
+        margin-top: 20px;
+    }
+
     .first-catalog-banner {
         width: 100%;
         height: 60px;
-        margin: 0;
         display: flex;
         justify-content: center;
     }
@@ -1832,10 +1841,13 @@
 }
 
 @media screen and (max-width: 1500px) {
+    .qunduz {
+        margin-top: 20px;
+    }
+
     .first-catalog-banner {
         width: 100%;
         height: 60px;
-        margin: 0;
         display: flex;
         justify-content: center;
     }

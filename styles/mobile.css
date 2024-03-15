@@ -1,4 +1,50 @@
 @media screen and (max-width: 2560px) {
+    .first-catalog-banner {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo img {
+        width: 423px;
+        height: 100px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 100px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+
+
+
     .contact-us-link-mobile {
         display: none;
     }
@@ -65,7 +111,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 94vh;
+        height: 92vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -204,15 +250,15 @@
     }
 
     .swiper1 img {
-        width: 100px;
-        height: 100px;
+        width: 105px;
+        height: 105px;
         /* margin-right: 100px; */
 
     }
 
 
     .swiper-slide {
-        width: 17%;
+        width: 20%;
     }
 
     .first-footer {
@@ -308,16 +354,6 @@
         overflow: hidden;
     }
 
-    .name-of-catalog {
-        display: flex;
-        justify-content: center;
-    }
-
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 24px;
-    }
-
     .catalog {
         display: flex;
         justify-content: center;
@@ -348,8 +384,10 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 95vh;
         margin-top: 0.1%;
+        align-items: center;
+        display: flex;
     }
 
     .second-catalog {
@@ -361,8 +399,10 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 95vh;
         margin-top: 0%;
+        align-items: center;
+        display: flex;
     }
 
     .third-catalog {
@@ -374,8 +414,10 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 95vh;
         margin-top: 0%;
+        align-items: center;
+        display: flex;
     }
 
     .four-catalog {
@@ -387,8 +429,10 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 95vh;
         margin-top: 0%;
+        align-items: center;
+        display: flex;
     }
 
     .five-catalog {
@@ -400,8 +444,10 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 95vh;
         margin-top: 0%;
+        align-items: center;
+        display: flex;
     }
 
     .six-catalog {
@@ -413,14 +459,57 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 95vh;
         margin-top: 0%;
+        align-items: center;
+        display: flex;
     }
 
 }
 
 
 @media screen and (max-width: 2000px) {
+    .first-catalog-banner {
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 253px;
+        height: 60px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 55px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -484,7 +573,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 89vh;
+        height: 87vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -732,11 +821,6 @@
         justify-content: center;
     }
 
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 24px;
-    }
-
     .catalog {
         display: flex;
         justify-content: center;
@@ -767,7 +851,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 88vh;
         margin-top: 0.1%;
     }
 
@@ -780,7 +864,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 88vh;
         margin-top: 0%;
     }
 
@@ -793,7 +877,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 88vh;
         margin-top: 0%;
     }
 
@@ -806,7 +890,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 88vh;
         margin-top: 0%;
     }
 
@@ -819,7 +903,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 88vh;
         margin-top: 0%;
     }
 
@@ -832,13 +916,54 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 88vh;
         margin-top: 0%;
     }
 }
 
 
 @media screen and (max-width: 1800px) {
+    .first-catalog-banner {
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 253px;
+        height: 60px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -902,7 +1027,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 89vh;
+        height: 88vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -1035,7 +1160,7 @@
     }
 
     .slyder {
-        width: 50%;
+        width: 51%;
         margin: auto;
         overflow: hidden;
     }
@@ -1149,15 +1274,11 @@
         justify-content: center;
     }
 
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 24px;
-    }
 
     .catalog {
         display: flex;
         justify-content: center;
-        width: 35%;
+        width: 32%;
         object-fit: cover;
         margin: auto;
     }
@@ -1184,7 +1305,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0.4%;
     }
 
@@ -1197,7 +1318,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -1210,7 +1331,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -1223,7 +1344,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -1236,7 +1357,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -1249,12 +1370,52 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 1600px) {
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -1318,7 +1479,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 89vh;
+        height: 88vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -1569,15 +1730,10 @@
         justify-content: center;
     }
 
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 24px;
-    }
-
     .catalog {
         display: flex;
         justify-content: center;
-        width: 34.3%;
+        width: 31.3%;
         object-fit: cover;
         margin: auto;
     }
@@ -1604,7 +1760,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0.4%;
     }
 
@@ -1617,7 +1773,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -1630,7 +1786,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -1643,7 +1799,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -1656,7 +1812,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -1669,12 +1825,52 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 1500px) {
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -1749,6 +1945,7 @@
         z-index: 1;
         display: flex;
         justify-content: space-around;
+        margin: 0;
     }
 
     .header-left {
@@ -1875,14 +2072,14 @@
     }
 
     .slyder {
-        width: 50%;
+        width: 60%;
         margin: auto;
         overflow: hidden;
     }
 
     .swiper1 img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         /* margin-right: 100px; */
 
     }
@@ -1997,7 +2194,7 @@
     .catalog {
         display: flex;
         justify-content: center;
-        width: 38%;
+        width: 35%;
         object-fit: cover;
         margin: auto;
     }
@@ -2024,7 +2221,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 93vh;
         margin-top: 0.4%;
     }
 
@@ -2037,7 +2234,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 93vh;
         margin-top: 0%;
     }
 
@@ -2050,7 +2247,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 93vh;
         margin-top: 0%;
     }
 
@@ -2063,7 +2260,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 93vh;
         margin-top: 0%;
     }
 
@@ -2076,7 +2273,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 93vh;
         margin-top: 0%;
     }
 
@@ -2089,12 +2286,57 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 93vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 1400px) {
+    .qunduz {
+        margin-top: 20px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+
 
     /* Language selection */
     /* radio settings 👇 */
@@ -2515,6 +2757,49 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .qunduz {
+        margin-top: 0px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -2864,7 +3149,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -2877,7 +3162,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -2890,7 +3175,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -2903,7 +3188,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -2916,7 +3201,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -2929,12 +3214,55 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 1200px) {
+    .qunduz {
+        margin-top: 0px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -2998,7 +3326,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 90vh;
+        height: 88vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -3153,7 +3481,7 @@
 
 
     .swiper-slide {
-        width: 17%;
+        width: 20%;
     }
 
     .first-footer {
@@ -3288,7 +3616,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -3301,7 +3629,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -3314,7 +3642,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -3327,7 +3655,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -3340,7 +3668,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 
@@ -3353,12 +3681,55 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 91vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 1000px) {
+    .qunduz {
+        margin-top: 10px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -3422,7 +3793,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 88vh;
+        height: 85vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -3712,7 +4083,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -3725,7 +4096,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -3738,7 +4109,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -3751,7 +4122,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -3764,7 +4135,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 
@@ -3777,12 +4148,55 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 89vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 800px) {
+    .qunduz {
+        margin-top: 10px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -3876,7 +4290,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 90vh;
+        height: 86vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -4148,7 +4562,7 @@
     .catalog {
         display: flex;
         justify-content: center;
-        width: 45%;
+        width: 40%;
         object-fit: cover;
         margin: auto;
     }
@@ -4175,7 +4589,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 90vh;
         margin-top: 0%;
     }
 
@@ -4188,7 +4602,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 90vh;
         margin-top: 0%;
     }
 
@@ -4201,7 +4615,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 90vh;
         margin-top: 0%;
     }
 
@@ -4214,7 +4628,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 90vh;
         margin-top: 0%;
     }
 
@@ -4227,7 +4641,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 90vh;
         margin-top: 0%;
     }
 
@@ -4240,12 +4654,55 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 90vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 600px) {
+    .qunduz {
+        margin-top: 10px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -4340,7 +4797,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 90vh;
+        height: 89vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -4604,15 +5061,10 @@
         justify-content: center;
     }
 
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 24px;
-    }
-
     .catalog {
         display: flex;
         justify-content: center;
-        width: 90%;
+        width: 80%;
         object-fit: cover;
         margin: auto;
     }
@@ -4639,8 +5091,11 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .second-catalog {
@@ -4652,7 +5107,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -4665,7 +5120,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -4678,7 +5133,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -4691,7 +5146,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -4704,12 +5159,55 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 500px) {
+    .qunduz {
+        margin-top: 10px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -4805,7 +5303,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 93vh;
+        height: 91vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -4936,7 +5434,7 @@
 
     .headline-tex h1 {
         color: #ff4200;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
         margin: 0;
     }
@@ -5068,11 +5566,6 @@
         justify-content: center;
     }
 
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 20px;
-    }
-
     .catalog {
         display: flex;
         justify-content: center;
@@ -5103,7 +5596,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5116,7 +5609,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5129,7 +5622,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5142,7 +5635,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5155,7 +5648,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5168,12 +5661,55 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 400px) {
+    .qunduz {
+        margin-top: 10px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -5270,7 +5806,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 93vh;
+        height: 90vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -5533,11 +6069,6 @@
         justify-content: center;
     }
 
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 20px;
-    }
-
     .catalog {
         display: flex;
         justify-content: center;
@@ -5568,7 +6099,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5581,7 +6112,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5594,7 +6125,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5607,7 +6138,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5620,7 +6151,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 
@@ -5633,12 +6164,55 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 94vh;
         margin-top: 0%;
     }
 }
 
 @media screen and (max-width: 360px) {
+    .qunduz {
+        margin-top: 10px;
+    }
+
+    .first-catalog-banner {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-catalog-banner-center {
+        display: flex;
+        justify-content: space-around;
+        width: fit-content;
+
+    }
+
+    .first-banner-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .first-banner-logo img {
+        width: 169px;
+        height: 40px;
+    }
+
+    .name-of-catalog {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name-of-catalog h3 {
+        color: #fff;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
 
     /* Language selection */
     /* radio settings 👇 */
@@ -5736,7 +6310,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 91.5vh;
+        height: 90vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -5999,11 +6573,6 @@
         justify-content: center;
     }
 
-    .name-of-catalog h3 {
-        color: #fff;
-        font-size: 18px;
-    }
-
     .catalog {
         display: flex;
         justify-content: center;
@@ -6034,7 +6603,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -6047,7 +6616,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -6060,7 +6629,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -6073,7 +6642,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -6086,7 +6655,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 
@@ -6099,7 +6668,7 @@
         /* Выравниваем изображение по центру */
         width: 100%;
         /* Устанавливаем ширину и высоту, чтобы фоновое изображение занимало всю доступную область */
-        height: 100vh;
+        height: 92vh;
         margin-top: 0%;
     }
 }

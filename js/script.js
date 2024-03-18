@@ -72,6 +72,10 @@ document.addEventListener('copy', function (event) {
 
 
 
+
+
+
+
 document.addEventListener('contextmenu', function (event) {
     event.preventDefault();
 });
@@ -88,16 +92,24 @@ document.addEventListener('keydown', function (event) {
     }
 
     // Блокируем Ctrl + Shift + U
-    if (event.ctrlKey && event.shiftKey && event.key === 'U') {
+    if (event.ctrlKey && event.shiftKey && event.keyCode === 85) {
         event.preventDefault();
     }
 
-    // Разрешаем Ctrl + Shift + I для открытия консоли
-    if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+    // Блокируем Ctrl + Shift + I, если нажата дополнительная клавиша, кроме "Alt"
+    if (event.ctrlKey && event.shiftKey && event.keyCode === 73) {
         return;
     }
-    event.preventDefault();
+
+    // Разрешаем другие комбинации клавиш
+    // Например, Ctrl + R или Ctrl + Shift + R
+    if (event.ctrlKey && (event.key === 'R' || event.keyCode === 82)) {
+        return; // Не блокируем Ctrl + R или Ctrl + Shift + R
+    }
 });
+
+
+
 
 
 

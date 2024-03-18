@@ -64,3 +64,55 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+document.addEventListener('copy', function (event) {
+    event.preventDefault(); // Отмена действия копирования
+    alert('Копирование запрещено');
+});
+
+
+
+
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault();
+});
+
+document.addEventListener('keydown', function (event) {
+    // Блокируем F12
+    if (event.key === 'F12') {
+        event.preventDefault();
+    }
+
+    // Блокируем Ctrl + Shift + C
+    if (event.ctrlKey && event.shiftKey && event.keyCode === 67) {
+        event.preventDefault();
+    }
+
+    // Блокируем Ctrl + Shift + U
+    if (event.ctrlKey && event.shiftKey && event.key === 'U') {
+        event.preventDefault();
+    }
+
+    // Разрешаем Ctrl + Shift + I для открытия консоли
+    if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+        return;
+    }
+    event.preventDefault();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+window.addEventListener('keydown', function (event) {
+    if (event.keyCode === 123) { // F12
+        console.log('Консоль открыта');
+        // Здесь можно предпринять дополнительные действия
+    }
+});

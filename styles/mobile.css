@@ -4795,7 +4795,7 @@
 
 @media screen and (max-width: 600px) {
     .qunduz {
-        margin-top: 25px;
+        margin-top: 3px;
     }
 
     .first-catalog-banner {
@@ -4931,10 +4931,20 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 89vh;
+        height: 82vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+        z-index: 0;
     }
 
     .header {
@@ -5312,7 +5322,7 @@
 
 @media screen and (max-width: 500px) {
     .qunduz {
-        margin-top: 30px;
+        margin-top: 0;
     }
 
     .first-catalog-banner {
@@ -5449,10 +5459,20 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 91vh;
+        height: 83vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 89vh;
+        overflow: hidden;
+        z-index: 0;
     }
 
     .header {
@@ -5826,7 +5846,7 @@
 
 @media screen and (max-width: 400px) {
     .qunduz {
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .first-catalog-banner {
@@ -5964,10 +5984,20 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 90vh;
+        height: 82vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 89vh;
+        overflow: hidden;
+        z-index: 0;
     }
 
     .header {
@@ -6341,7 +6371,7 @@
 
 @media screen and (max-width: 360px) {
     .qunduz {
-        margin-top: 20px;
+        margin-top: 0;
     }
 
     .first-catalog-banner {
@@ -6480,10 +6510,20 @@
         display: flex;
         justify-content: center;
         align-items: end;
-        height: 90vh;
+        height: 82vh;
         position: relative;
         z-index: 1;
         overflow: hidden;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+        z-index: 0;
     }
 
     .header {
